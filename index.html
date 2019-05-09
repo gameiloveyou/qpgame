@@ -110,8 +110,8 @@
 			var u = navigator.userAgent;
 			var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; 
 			var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
-			AndroidUrl = "download/app-jyhn-release.apk";
-			iOSUrl = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/findtools/gameDemo/master/download/ios/mymanifest.plist";
+			AndroidUrl = "download/android/game.apk";
+			iOSUrl = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/gameiloveyou/qpgame/master/download/ios/mymanifest.plist";
 			$(".down-btn").bind("click",function(){
 				if(is_weixin){
 					$(".weixin-shade").show();
